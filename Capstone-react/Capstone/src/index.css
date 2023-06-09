@@ -1,0 +1,161 @@
+
+.forms{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formContainer{
+    border: 1px solid lightgrey;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.makeEventFormContainer{
+    border: 1px solid lightgrey;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.makeEventFormContainer input{
+    width: 300px;
+}
+.makeEventFormContainer button{
+    width: 300px;
+    border-radius: 3px;
+    background-color: lightcoral;
+}
+.formContainer button{
+    width: 195px;
+    border-radius: 3px;
+    background-color: lightcoral;
+}
+
+.cardContainer{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.eventCards{
+    width: 50%;
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 60px;
+    
+}
+
+.eventCard {
+    min-width: 100px;
+    max-width: 450px;
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    margin: 20px;
+    
+}
+.eventCard.card {
+    height: 100%;
+    
+    
+}
+footer{
+    background-color: teal;
+    height: 300px;
+}
+.header{
+    background-image: url('https://cdn.shopify.com/s/files/1/0969/9128/products/Claude_20Monet_20-_20Water_20Lilies_331e4437-e33c-44e3-8dff-174280134afd.jpg?v=1485850248');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+.landingPageBody{
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.buttonBox{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.buttonBox button{
+    margin-top: 30px;
+    border-color: orange;
+    border: solid;
+    width: 450px;
+    height: 60px;
+    background-color: white;
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+.buttonBox button:hover{
+    background-color: orange;
+    color: white;
+}
+
+.stayConnected{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    height: 100px;
+    background-color: lightgray;
+}
+.stayConnected button{
+    border: solid;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+}
+.stayConnected button:hover{
+    background-color: black;
+    color: white;
+}
+.programsAndEvents{
+    margin-top: 50px;
+}
+.landingPageEventBox{
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.landingPageEventCard{
+    border: solid;
+    width: 300px;
+}
